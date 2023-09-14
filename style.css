@@ -123,8 +123,8 @@ select {
 
 @media (max-width: 345px) {
   .hero {
-    width: 112%;
-    min-height: 113vh;
+    width: 100%;
+    min-height: 100vh;
   }
   textarea {
     width: 261px;
