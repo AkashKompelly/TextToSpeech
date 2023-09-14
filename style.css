@@ -102,3 +102,43 @@ select {
   width: 510px;
   font-size: medium;
 }
+
+@media (max-width: 650px) {
+  textarea {
+    width: 300px;
+  }
+
+  select {
+    width: 249px;
+  }
+
+  div h1 {
+    font-size: 27px;
+  }
+
+  button {
+    font-size: 0px;
+  }
+}
+
+@media (max-width: 345px) {
+  .hero {
+    width: 112%;
+    min-height: 113vh;
+  }
+  textarea {
+    width: 261px;
+  }
+
+  select {
+    width: 207px;
+  }
+
+  div h1 {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 0px;
+  }
+}
